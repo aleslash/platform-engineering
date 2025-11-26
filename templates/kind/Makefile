@@ -2,6 +2,8 @@
 
 CLUSTER_NAME ?= kind-cluster
 KUBECONFIG ?= $(HOME)/.kube/config
+CLUSTER_CONFIG ?= ./config.yaml
+CLUSTER_NODES_CONFIG ?= ./nodes-config.yaml
 
 help:
 	@echo "Kind cluster management"
@@ -11,7 +13,7 @@ help:
 
 cluster-up:
 	@echo "Creating kind cluster: $(CLUSTER_NAME)"
-	kind create cluster --name $(CLUSTER_NAME)
+	kind create cluster --name $(CLUSTER_NAME) --config $(CLUSTER_CONFIG)
 	@echo "Cluster created successfully"
 	@kubectl cluster-info --context kind-$(CLUSTER_NAME)
 
