@@ -1,0 +1,3 @@
+module example.com/Section8
+
+go 1.25.5
