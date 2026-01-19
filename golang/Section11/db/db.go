@@ -3,15 +3,15 @@ package db
 import (
 	"database/sql"
 
-	// _ "github.com/mattn/go-sqlite3"
-	_ "modernc.org/sqlite"
+	_ "github.com/mattn/go-sqlite3"
+	//_ "modernc.org/sqlite"
 )
 
 var DB *sql.DB
 
 func InitDB() {
 	var err error
-	DB, err = sql.Open("sqlite", "api.db")
+	DB, err = sql.Open("sqlite3", "api.db")
 
 	if err != nil {
 		panic("Could not connect to database.")
