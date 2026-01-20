@@ -89,3 +89,27 @@ func GetAllEvents() ([]Event, error) {
 	}
 	return events, nil
 }
+
+func (e *Event) RegisterUser(userId int64) error {
+	// Implementation for registering a user for an event in the database
+	query := `INSERT INTO registrations (user_id, event_id) VALUES (?, ?)`
+	stmt, err := db.DB.Prepare(query)
+	if err != nil {
+		return err
+	}
+	defer stmt.Close()
+	_, err = stmt.Exec(userId, e.ID)
+	return err
+}
+
+func (e *Event) UnregisterUser(userId int64) error {
+	// Implementation for unregistering a user from an event in the database
+	query := `DELETE FROM registrations WHERE user_id = ? AND event_id = ?`
+	stmt, err := db.DB.Prepare(query)
+	if err != nil {
+		return err
+	}
+	defer stmt.Close()
+	_, err = stmt.Exec(userId, e.ID)
+	return err
+}

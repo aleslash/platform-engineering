@@ -1,6 +1,6 @@
 POST http://localhost:8080/events
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlMkBlbWFpbC5jb20iLCJleHAiOjE3Njg4NjE3MTUsInVzZXJJZCI6MX0.mAGg7twhHoC0w0LctJXJhgQjgDGyu-DJviMA03jnGMA
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlQGVtYWlsLmNvbSIsImV4cCI6MTc2ODk1MDU0OSwidXNlcklkIjoxfQ.4zwuK62vb6u0tar0-82CaLV1KTdEXquSARqMFBrZMl4
 
 {
   "name": "Team Meeting",
