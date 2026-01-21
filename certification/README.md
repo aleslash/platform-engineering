@@ -25,3 +25,4 @@
 - [KCA](https://training.linuxfoundation.org/certification/kyverno-certified-associate-kca/) (Kyverno Certified Associate) - $250
 - [CNPA](https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineering-associate-cnpa/) (Certified Cloud Native Platform Engineering Associate) - $250
 - [LFCS](https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/) Linux Foundation Certified Sysadmin - $445
+- [CNPE](https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineer-cnpe/) (Certified Cloud Native Platform Engineer) - $445
