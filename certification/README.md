@@ -26,3 +26,10 @@
 - [CNPA](https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineering-associate-cnpa/) (Certified Cloud Native Platform Engineering Associate) - $250
 - [LFCS](https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/) Linux Foundation Certified Sysadmin - $445
 - [CNPE](https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineer-cnpe/) (Certified Cloud Native Platform Engineer) - $445
+
+Bundle $2669
+35% Off - $1734,85
+
+Individual Exams $3140
+35% Off - $2041
+Individual Exams with Kubestronaut 50% Off in 4 exams and 35% Off in the rest - $1832,50
